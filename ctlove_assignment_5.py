@@ -31,3 +31,15 @@ if prime == True:
     print(f"{number_2} is prime!")
 else:
     print(f"{number_2} is not prime (divisible by 3)")
+print("")
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+for top in range(1,11):
+    print(f"{top:4}", end="")
+print("")
+for row in range(1,11):
+    print(f"{row:2}", end=" ")
+    for col in range(1, 11):
+        num = row * col
+        print(f"{num:4}", end="")
+print("")
